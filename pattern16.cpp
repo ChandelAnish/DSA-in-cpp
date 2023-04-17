@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int n;
-    cout<<"enter any odd number of times you want to print the pattern"<<endl;
+    cout<<"enter number of times you want to print the pattern"<<endl;
     cin>>n;
     for(int i=1;i<=2*n-1;i++)
     {
@@ -26,12 +26,16 @@ int main()
              {
                 cout<<" ";
              }
-             int c=1;
-            for(int j=2*(i-n)-1;j<=2*n-3;j++)
+             for(int j=0;j<2*(2*n-i)-1;j++)
              {
-                cout<<((char)(c+64));
-                c++;
+               cout<<((char)('A'+j));
              }
+            //  int c=1;
+            // for(int j=2*(i-n)-1;j<=2*n-3;j++)
+            //  {
+            //     cout<<((char)(c+64));
+            //     c++;
+            //  }
         }
         cout<<endl;
     }
