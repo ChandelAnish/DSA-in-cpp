@@ -34,3 +34,8 @@ linear_search.exe
 binary_search.exe
 binaryadd.exe
 double_dim_array.exe
+binary_to_decimal.exe
+call_by_ref.exe
+decimal_to_binary.exe
+fabannoci.exe
+traversing_array_by_for_each_loop.exe
