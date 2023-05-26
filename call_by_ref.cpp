@@ -27,6 +27,7 @@ int main()
     // cout<<endl<<"by pointers method"<<endl;
     cout<<"x = "<<x<<"  y = "<<y<<endl;
     swap(&x,&y);
+    swap(&x,&y);//attaining original configuration
     cout<<"x = "<<x<<"  y = "<<y<<endl;
     return 0;
 }
