@@ -43,7 +43,7 @@ void print(vector <int> &v)
 void sorting(vector <int> &v,int n)
 {
     int p=0,pp=n-1;
-    while(p!=pp)
+    while(p<pp)
     {
         if(v[p]==1 && v[pp]==0)
         {

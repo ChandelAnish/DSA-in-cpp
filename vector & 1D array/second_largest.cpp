@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
-void input(int ar[],int n)
+void input(int p[],int n)
 {
     cout<<"enter the elements of array"<<endl;
     for(int i=0;i<n;i++)
     {
-        cin>>ar[i];
+        cin>>p[i];
     }
 }
 void print(int ar[],int n)

@@ -37,8 +37,5 @@ int main()
     v.insert(((v.begin())+2),664);
     cout<<"size = "<<v.size()<<endl;
     cout<<"capacity = "<<v.capacity()<<endl;
-    int i=*(v.begin());
-    cout<<"i = "<<i<<endl;
-    // cout<<"begin = "<<v.begin()<<endl;
     return 0;
 }

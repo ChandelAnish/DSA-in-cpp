@@ -18,12 +18,12 @@ int main()
     // }
     //inputing inside a vector whose size is defined
     vector <int> vt(5);
-    for(int i=0;i<vt.size();i++)
+    for(int i=0;i<vt.size();i++)//for traversing vector like we did in array you must declear vector with it's size.
     {
         cin>>vt[i];
     }
     // //printing the vector elements
-    //  for(int i=0;i<vt.size();i++)
+    //  for(int i=0;i<vt.size();i++)//for traversing vector like we did in array you must declear vector with it's size.
     // {
     //     cout<<vt[i]<<"  ";
     // }
